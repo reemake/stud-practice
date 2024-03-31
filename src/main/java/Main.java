@@ -1,4 +1,5 @@
 import entity.PatientRepository;
+import exception.FilenameNotSpecifiedException;
 import jaxb.JAXBConverter;
 import javax.xml.bind.JAXBException;
 import java.io.FileNotFoundException;
@@ -30,16 +31,16 @@ import java.io.FileNotFoundException;
 
 public class Main {
 
-    private static void validateArgs(String[] args) {
+    private static void validateArgs(String[] args) throws FilenameNotSpecifiedException {
         if (args.length == 0) {
-
+            throw new FilenameNotSpecifiedException("Параметры не заданы!");
         }
         else if (args.length == 1)
             if (args[0].equals("age") || args[0].equals("name"))
-                System.out.println("Имя файла не указано!");
+                throw new FilenameNotSpecifiedException("Имя файла не указано!");
     }
 
-    public static void main(String[] args) throws FileNotFoundException, JAXBException {
+    public static void main(String[] args) throws FileNotFoundException, JAXBException, FilenameNotSpecifiedException {
 
         try {
             validateArgs(args);
