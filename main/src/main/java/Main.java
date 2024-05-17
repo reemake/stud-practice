@@ -1,6 +1,7 @@
 import entity.PatientRepository;
 import exception.FilenameNotSpecifiedException;
 import jaxb.JAXBConverter;
+
 import javax.xml.bind.JAXBException;
 import java.io.FileNotFoundException;
 
@@ -50,7 +51,7 @@ public class Main {
 
             String filename = args[0];
             jaxbConverter = new JAXBConverter(PatientRepository.class);
-            patients = jaxbConverter.unmarshall("src/main/resources/" + filename + ".xml");
+            patients = jaxbConverter.unmarshall("C:\\Users\\reema\\IdeaProjects\\stud-practice\\main\\src\\main\\resources\\" + filename + ".xml");
 
             if (args.length == 2) {
                 String sortBy = args[1];

@@ -1,5 +1,6 @@
 package entity;
-import jaxb.DateAdapter;
+
+import util.DateAdapter;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -119,7 +120,7 @@ public class Patient {
     @Override
     public String toString() {
         String gender_ = (getGender().equals("male") ? "М" : "Ж");
-        return  "\nФИО: " + getFirstName() + " " + getMiddleName() + " " + getLastName() +
+        return  "ФИО: " + getFirstName() + " " + getMiddleName() + " " + getLastName() +
                 "\nВозраст: " + calcAge(getBirthday()) +
                 "\nПол: " + gender_ +
                 "\nТелефон: " + getPhoneNumber();

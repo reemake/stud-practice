@@ -36,15 +36,22 @@ public class PatientRepository {
     }
 
     public void printInfo() {
+        System.out.println(this);
+    }
+
+    @Override
+    public String toString() {
+        String result = "";
         String alignFormat = "|%-30s|%-11s|%-11s|%-20s|%n";
 
-        System.out.format("+------------------------------+-----------+-----------+--------------------+%n");
-        System.out.format("|             ФИО              |  Возраст  |    Пол    |       Телефон      |%n");
-        System.out.format("+------------------------------+-----------+-----------+--------------------+%n");
+        result += String.format("+------------------------------+-----------+-----------+--------------------+\n");
+        result += String.format("|             ФИО              |  Возраст  |    Пол    |       Телефон      |\n");
+        result += String.format("+------------------------------+-----------+-----------+--------------------+\n");
 
-        for(Patient p : patients) {
-            System.out.format(alignFormat, p.getLastName() + " " + p.getFirstName() + " " + p.getMiddleName(), p.getAge(), p.getGender(), p.getPhoneNumber());
+        for (Patient p : patients) {
+            result += String.format(alignFormat, p.getLastName() + " " + p.getFirstName() + " " + p.getMiddleName(), p.getAge(), p.getGender(), p.getPhoneNumber());
         }
-        System.out.format("+------------------------------+-----------+-----------+--------------------+%n");
+        result += String.format("+------------------------------+-----------+-----------+--------------------+");
+        return result.trim().replace("\r","");
     }
 }

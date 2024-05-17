@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patients>
     <patient>
-        <first_name>Иван</first_name>
-        <middle_name>Иванович</middle_name>
-        <last_name>Иванов</last_name>
+        <first_name>Ivan</first_name>
+        <middle_name>Ivanovich</middle_name>
+        <last_name>Ivanov</last_name>
         <birthday>1980-06-01</birthday>
         <gender>male</gender>
         <phone>+7-905-680-4476</phone>
     </patient>
     <patient>
-        <first_name>Петр</first_name>
-        <middle_name>Петрович</middle_name>
-        <last_name>Петров</last_name>
+        <first_name>Petr</first_name>
+        <middle_name>Petrovich</middle_name>
+        <last_name>Petrov</last_name>
         <birthday>1985-11-04</birthday>
         <gender>male</gender>
         <phone>+7-920-230-1756</phone>
     </patient>
     <patient>
-        <first_name>Лариса</first_name>
-        <middle_name>Ивановна</middle_name>
-        <last_name>Лисицына</last_name>
+        <first_name>Larisa</first_name>
+        <middle_name>Ivanovna</middle_name>
+        <last_name>Lisitsyna</last_name>
         <birthday>1990-03-25</birthday>
         <gender>female</gender>
         <phone>+7-980-719-1668</phone>
     </patient>
     <patient>
-        <first_name>Мария</first_name>
-        <middle_name>Петровна</middle_name>
-        <last_name>Волкова</last_name>
+        <first_name>Maria</first_name>
+        <middle_name>Petrovna</middle_name>
+        <last_name>Volkova</last_name>
         <birthday>1987-08-25</birthday>
         <gender>female</gender>
         <phone>+7-903-220-7681</phone>
     </patient>
     <patient>
-        <first_name>Михаил</first_name>
-        <middle_name>Викторович</middle_name>
-        <last_name>Медведев</last_name>
+        <first_name>Mihail</first_name>
+        <middle_name>Viktorovich</middle_name>
+        <last_name>Medvedev</last_name>
         <birthday>1995-02-15</birthday>
         <gender>male</gender>
         <phone>+7-920-670-9643</phone>

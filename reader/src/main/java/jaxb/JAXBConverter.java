@@ -27,8 +27,8 @@ public class JAXBConverter {
         this.um = this.c.createUnmarshaller();
     }
 
-    public void marshall(PatientRepository patient, String filepath) throws JAXBException {
-        m.marshal(patient, new File(filepath));
+    public void marshall(PatientRepository patient) throws JAXBException {
+        m.marshal(patient, new File("src/main/resources/patients1.xml"));
     }
 
     public PatientRepository unmarshall(String filepath) throws JAXBException, FileNotFoundException {
