@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<patients>
+    <patient>
+        <first_name>Ivan</first_name>
+        <middle_name>Ivanovich</middle_name>
+        <last_name>Ivanov</last_name>
+        <birthday>1990-05-25</birthday>
+        <gender>male</gender>
+        <phone>+7-902-244-54-66</phone>
+    </patient>
+    <patient>
+        <first_name>Larisa</first_name>
+        <middle_name>Ivanovna</middle_name>
+        <last_name>Lisitsyna</last_name>
+        <birthday>1997-12-20</birthday>
+        <gender>female</gender>
+        <phone>+7-999-040-54-22</phone>
+    </patient>
+    <patient>
+        <first_name>Maria</first_name>
+        <middle_name>Petrovna</middle_name>
+        <last_name>Volkova</last_name>
+        <birthday>1955-07-14</birthday>
+        <gender>female</gender>
+        <phone>+7-999-454-78-32</phone>
+    </patient>
+</patients>

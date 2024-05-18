@@ -1,4 +1,0 @@
-entity\PatientRepository.class
-entity\Patient.class
-jaxb\JAXBConverter.class
-jaxb\DateAdapter.class

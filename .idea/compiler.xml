@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="exception" />
         <module name="main" />
+        <module name="data" />
         <module name="reader" />
       </profile>
     </annotationProcessing>
