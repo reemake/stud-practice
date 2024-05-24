@@ -1,1 +1,4 @@
+/**
+ * Exception package.
+ */
 package exception;

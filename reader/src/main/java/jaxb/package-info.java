@@ -1,1 +1,4 @@
+/**
+ * JAXB package.
+ */
 package jaxb;
