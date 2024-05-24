@@ -13,12 +13,6 @@
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>xml-parser</artifactId>
-            <version>1.0</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.example</groupId>
             <artifactId>reader</artifactId>
             <version>1.0</version>
             <scope>compile</scope>
