@@ -51,7 +51,7 @@ public class JAXBConverterTest {
                 "|Ivanov Ivan Ivanovich         |33         |male       |+7-902-244-54-66    |\n" +
                 "|Lisitsyna Larisa Ivanovna     |26         |female     |+7-999-040-54-22    |\n" +
                 "|Volkova Maria Petrovna        |68         |female     |+7-999-454-78-32    |\n" +
-                "+------------------------------+-----------+-----------+--------------------+".trim().replace("\r","");
+                "+------------------------------+-----------+-----------+--------------------".trim().replace("\r","");
         String actual = newRepoFromXml.toString().trim().replace("\r","");
         assertEquals(expected, actual);
     }
