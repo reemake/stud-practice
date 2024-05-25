@@ -17,4 +17,8 @@ public class DateAdapter extends XmlAdapter<String, LocalDate> {
     public String marshal(LocalDate v) throws Exception {
         return v.toString();
     }
+
+    public int summ(int a, int b) {
+        return a+b;
+    }
 }

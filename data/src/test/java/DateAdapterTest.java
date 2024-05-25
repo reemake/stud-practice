@@ -30,4 +30,11 @@ public class DateAdapterTest {
         String expected = "2001-05-20";
         String actual = dateAdapter.marshal(LocalDate.of(2001, 5, 20));
     }
+
+    @Test
+    void sumTest() {
+        int expected = 5;
+        int actual = dateAdapter.summ(2, 3);
+        assertEquals(expected, actual);
+    }
 }
