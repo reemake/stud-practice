@@ -23,7 +23,7 @@ public class JAXBConverterTest {
     @BeforeEach
     void setUp() throws JAXBException {
         jaxbConverter = new JAXBConverter(PatientRepository.class);
-        patient1 = new Patient("Ivan", "Ivanovich", "Ivanov", LocalDate.parse("1990-05-25"), "male", "+7-902-244-54-66");
+        patient1 = new Patient("Ivan", "Ivanovich", "Ivanov", LocalDate.parse("1990-05-30"), "male", "+7-902-244-54-66");
         patient2 = new Patient("Larisa", "Ivanovna", "Lisitsyna", LocalDate.parse("1997-12-20"), "female", "+7-999-040-54-22");
         patient3 = new Patient("Maria", "Petrovna", "Volkova", LocalDate.parse("1955-07-14"), "female", "+7-999-454-78-32");
         List<Patient> patients = new ArrayList<>();
