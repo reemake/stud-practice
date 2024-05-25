@@ -44,7 +44,7 @@ pipeline {
         }
         stage("Publish") {
             steps {
-                bat 'copy "main\\target\\xml-parser-1.0-jar-with-dependencies.jar" "C:\\xml-parser-1.0.jar"'
+                bat 'copy "target\\xml-parser-1.0-jar-with-dependencies.jar" "C:\\xml-parser-1.0.jar"'
             }
         }
     }
